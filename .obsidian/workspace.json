@@ -13,30 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "ch.2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "ch.2"
             }
           },
           {
             "id": "bc09595b92c4631a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "temp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "temp"
-            }
-          },
-          {
-            "id": "d5d219d6eafc750d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,9 +46,20 @@
               "icon": "lucide-file-text",
               "title": "chap2_Exploratory Data Analysis"
             }
+          },
+          {
+            "id": "ab9ba9d005f32298",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "assets/ch1-plot.png"
+              },
+              "icon": "lucide-image",
+              "title": "ch1-plot"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "ch.2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for ch.2"
             }
           },
           {
@@ -180,18 +177,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "ch.2.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of ch.2"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,19 +202,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bc09595b92c4631a",
+  "active": "673c6f062f63c504",
   "lastOpenFiles": [
+    "todo.md",
+    "material/chap2_Exploratory Data Analysis.pdf",
+    "ch.2.md",
+    "assets/ch1-plot.png",
+    "Excalidraw/KDD-process.excalidraw.md",
+    "assets/ch1-bar-plot.png",
+    "assets/ch1-pie-plot.png",
+    "assets/ch1-box-plot.png",
+    "assets/ch1-stacked-bar-plot.png",
+    "assets/ch1-scatter-plot.png",
     "README.md",
     "temp.md",
-    "ch.2.md",
-    "material/chap2_Exploratory Data Analysis.pdf",
-    "todo.md",
     "ch.1.md",
     "assets/variance-form.png",
     "assets/mean-form.png",
     "assets/variance-example.png",
     "assets/KDD-process.png",
-    "Excalidraw/KDD-process.excalidraw.md",
     "material/Chap1-Introduction.pdf",
     "Excalidraw/Drawing 2024-11-29 17.13.44.excalidraw.md",
     "Untitled Kanban 1.md",
@@ -229,9 +232,6 @@
     "assignments/Employees.xlsx",
     "assignments/Assignment1.pdf",
     "assignments",
-    "Chap4 Feature Engineering and Feature Selection.pdf",
-    "assets/main.png",
-    "assets/Cluster-sampling.png",
-    "assets/strata.png"
+    "Chap4 Feature Engineering and Feature Selection.pdf"
   ]
 }

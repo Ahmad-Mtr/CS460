@@ -1,4 +1,4 @@
-- [ ] correlation
-- [ ] Mode
-- [ ] Plotly
-- [ ] Plotting function snippets
+- [x] correlation
+- [x] Mode
+- [x] Plotly
+- [x] Plotting function snippets
