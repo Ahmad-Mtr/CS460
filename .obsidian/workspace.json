@@ -8,29 +8,46 @@
         "type": "tabs",
         "children": [
           {
-            "id": "190a49c427b32334",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
             "id": "8b9f8d3aa7af0c79",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "material/Chap1-Introduction.pdf"
+                "file": "material/Chap4 Feature Engineering and Feature Selection.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Chap1-Introduction"
+              "title": "Chap4 Feature Engineering and Feature Selection"
+            }
+          },
+          {
+            "id": "c34de69ec22735b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ch.5.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ch.5"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "85412bc5f54074ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "788c56a3c947589b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -89,7 +106,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6ed62639cc188cf0",
@@ -151,10 +169,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "ch.5.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of ch.5"
             }
           }
         ],
@@ -162,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,38 +195,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "190a49c427b32334",
+  "active": "c34de69ec22735b0",
   "lastOpenFiles": [
-    "material/Chap1-Introduction.pdf",
     "README.md",
+    "material/Chap4 Feature Engineering and Feature Selection.pdf",
+    "lecture-code/ch4-wrapper-sel.md",
+    "lecture-code/ch4-feature-sel.md",
+    "lecture-code/ch3-code-pt.2.md",
+    "lecture-code/ch3-discretization.md",
+    "lecture-code/ch3-code-pt.1.md",
+    "lecture-code/ch2-code.md",
+    "lecture-code/ch2.md",
+    "lecture-code.md",
+    "ch.5.md",
+    "lecture-code",
     "ch.3.md",
-    "todo.md",
-    "temp.md",
+    "weatherPreprocessing.py",
+    "DiscritizationAndLAbelEncoding.py",
+    "preProcessing29_10_2024.py",
+    "PreProcessing_27_10_2024.py",
+    "PreProcessing.py",
+    "correlationAnalysis.py",
+    "firstExc.py",
+    "15_10_2024ExploringData.py",
+    "ch.4.md",
     "assets/installation.gif",
+    "ch.1.md",
+    "Excalidraw/KDD-process.excalidraw.md",
+    "Untitled Kanban.md",
+    "ch.2.md",
+    "todo.md",
     "installation.gif",
     "2024-11-30 20-55-21.gif",
     "material/2024-11-30 20-55-21.gif",
-    "Untitled.md",
-    "material/Chap3-Data Preprocessing.pdf",
     "assets/ch1-plot.png",
-    "ch.2.md",
-    "material/chap2_Exploratory Data Analysis.pdf",
-    "Excalidraw/KDD-process.excalidraw.md",
     "assets/ch1-bar-plot.png",
     "assets/ch1-pie-plot.png",
     "assets/ch1-box-plot.png",
     "assets/ch1-stacked-bar-plot.png",
     "assets/ch1-scatter-plot.png",
-    "ch.1.md",
     "Excalidraw/Drawing 2024-11-29 17.13.44.excalidraw.md",
-    "Untitled Kanban 1.md",
-    "Untitled Kanban.md",
-    "Excalidraw",
-    "material/Chap6-Machine learning.pdf",
-    "material/DataMiningStepsAndTechniques.pdf",
-    "assignments/main.py",
-    "assignments/Employees.xlsx",
-    "assignments/Assignment1.pdf",
-    "assignments"
+    "Untitled Kanban 1.md"
   ]
 }

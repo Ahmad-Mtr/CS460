@@ -1,4 +1,7 @@
-# Data Mining Cheatsheet: Sampling Methods
+# Data Mining Cheatsheet: Sampling Methods 
+> [!WARNING]
+> This Page doesn't cover whole ch.5
+
 ![Intro](assets/main.png)
 ## 1. Random Sampling
 - **Definition**: Every member of the population has an equal chance of selection.
