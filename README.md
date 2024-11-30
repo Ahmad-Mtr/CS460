@@ -16,3 +16,7 @@ read [this](#Installation) section first
 To install through your desktop:
 1. install [Obsidian.md](https://obsidian.md) on your system, then follow with the other steps.
 2. :
+
+<div align="center">
+<img src="assets/installation.gif" alt="Installing steps"> 
+</div>
