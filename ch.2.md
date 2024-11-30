@@ -1,4 +1,4 @@
-### Exploratory Data Analysis Cheat Sheet: Chapter 2
+############ Exploratory Data Analysis Cheat Sheet: Chapter 2
 
 #### Introduction to Python for Data Science
 
