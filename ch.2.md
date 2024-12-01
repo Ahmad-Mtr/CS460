@@ -61,7 +61,6 @@ print(correlation_matrix) # Display correlation matrix
 | **Box Plot**         | Distribution & outliers.    |
 | **Pie Chart**        | Proportional comparison.    |
 
-Here’s the markdown boilerplate with emojis and the structure you requested for all plot types:
 
 
 #### Visual Representation
