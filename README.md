@@ -15,6 +15,8 @@ read [this](#Installation) section first
 - [Ch4 Feature Selection](lecture-code/ch4-feature-sel.md)
 - [Ch4 Wrapper Feature Selection](lecture-code/ch4-wrapper-sel.md)
 
+
+- [Quiz solution](quiz.md)
 ---
 ## Installation
 > [!IMPORTANT]
