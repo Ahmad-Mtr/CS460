@@ -1,5 +1,4 @@
-> [!NOTE] 
-> The solution here scored 4.5/5, the `frac` values are wrong
+
 
 ```python
 # -*- coding: utf-8 -*-
@@ -36,9 +35,9 @@ plt.show()
 # Clustered
 cdf = data.sample(frac=1)
 
-clusters = np.array_split(cdf, 3)
+clusters = np.array_split(cdf, 4)
 
-cClusters = np.random.choice(len(clusters), 1 , replace=False)
+cClusters = np.random.choice(len(clusters), 2 , replace=False)
 cSample = np.concatenate([clusters[i] for i in cClusters])
 cdf = pd.DataFrame(cSample, columns=data.columns)
 print(cdf)
