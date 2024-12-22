@@ -6,6 +6,7 @@ read [this](#Installation) section first
 - [Chapter 3](ch.3.md)
 - [Chapter 4](ch.4.md)
 - [Chapter 5](ch.5.md) (Not full)
+- [Cross Validation](cross-validation.md)
 
 **Professor's Code from Lectures**
 - [Ch2 code](lecture-code/ch2-code.md)
@@ -15,8 +16,11 @@ read [this](#Installation) section first
 - [Ch4 Feature Selection](lecture-code/ch4-feature-sel.md)
 - [Ch4 Wrapper Feature Selection](lecture-code/ch4-wrapper-sel.md)
 
-
 - [Quiz solution](quiz.md)
+
+> [!NOTE]
+> For assignments & Tasks, check the `assignments` folder.
+
 ---
 ## Installation
 > [!IMPORTANT]
@@ -30,5 +34,5 @@ To install through your desktop:
 2. :
 
 <div align="center">
-<img src="assets/installation.gif" alt="Installing steps"> 
+<img src="assets/installation.gif" alt="Installing steps (Won't render on Obsidian)"> 
 </div>

@@ -49,7 +49,7 @@ from sklearn.datasets import load_iris
 iris = load_iris()
 X, y = iris.data, iris.target
 
-	info_gain = mutual_info_classif(X, y) # Returns an array of scores, where each score corresponds to the **information gain** of a feature.
+info_gain = mutual_info_classif(X, y) # Returns an array of scores, where each score corresponds to the **information gain** of a feature.
 
 # Output
 # Information Gain for each feature: [0.51929882 0.21639134 0.98069184 0.97782036]
