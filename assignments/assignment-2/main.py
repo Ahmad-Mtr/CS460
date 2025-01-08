@@ -1,17 +1,12 @@
 
-from sklearn.model_selection import cross_val_score, KFold
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.tree import DecisionTreeClassifier
-import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score, precision_score, recall_score, classification_report, confusion_matrix, \
-    f1_score
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.feature_selection import SequentialFeatureSelector
-from sklearn.preprocessing import StandardScaler
+
 
 # Print the ratio for each class.
 def calcRatio(dFrame):
@@ -28,7 +23,7 @@ def getFeatures(data):
     rf = RandomForestClassifier()
     rf.fit(trainData, trainLabel)
 
-    # Initialize Sequential Feature Selector
+    # Initialize Feature Selector
     sfs = SequentialFeatureSelector( rf, direction="forward", scoring="accuracy",  n_features_to_select=5)
     sfs.fit(trainData, trainLabel)
     selected_features = X.columns[sfs.get_support()].tolist()
@@ -43,95 +38,73 @@ def getFeatures(data):
     X_train, X_test, y_train, y_test = train_test_split(X_selected, y, test_size=0.33, random_state=42)
 
     # Initialize classifiers
-
-    dt_classifier = DecisionTreeClassifier(random_state=42)
-
+    dtClassifier = DecisionTreeClassifier(random_state=42)
     knn_classifier = KNeighborsClassifier(n_neighbors=7)
 
     # Decision Tree Classifier
-
     print("\nDecision Tree Results:")
+    print("------------------------------------+-")
 
-    print("-" * 50)
+    dtClassifier.fit(X_train, y_train)
+    dtPred = dtClassifier.predict(X_test)
 
-    dt_classifier.fit(X_train, y_train)
+    dtAccuracy = accuracy_score(y_test, dtPred)
+    dtPrecision = precision_score(y_test, dtPred, average=None)
+    dtRecall = recall_score(y_test, dtPred, average=None)
+    dtF1 = f1_score(y_test, dtPred )
 
-    dt_pred = dt_classifier.predict(X_test)
-
-    dt_accuracy = accuracy_score(y_test, dt_pred)
-
-    dt_precision = precision_score(y_test, dt_pred, average=None)
-
-    dt_recall = recall_score(y_test, dt_pred, average=None)
-
-    print(f"Accuracy: {dt_accuracy:.4f}")
-
-    print("\nPrecision by class:")
-
-    for i, p in enumerate(dt_precision):
-        print(f"Class {i}: {p:.4f}")
-
-    print("\nRecall by class:")
-
-    for i, r in enumerate(dt_recall):
-        print(f"Class {i}: {r:.4f}")
-
-
+    print(f"Accuracy: {dtAccuracy}")
+    print(f"Precision DT: {dtPrecision}")
+    print(f"Recall DT: {dtRecall}")
+    print(f"F1 DT: {dtF1}")
 
     # KNN Classifier
-
     print("\nKNN Results:")
-
     print("------------------------------------------")
 
     knn_classifier.fit(X_train, y_train)
-
     knn_pred = knn_classifier.predict(X_test)
 
     knn_accuracy = accuracy_score(y_test, knn_pred)
-
     knn_precision = precision_score(y_test, knn_pred, average=None)
-
     knn_recall = recall_score(y_test, knn_pred, average=None)
+    knnF1 = f1_score(y_test, knn_pred )
 
-
-    print(f"Accuracy: {knn_accuracy:.4f}")
-
-    print("\nPrecision by class:")
-
-    for i, p in enumerate(knn_precision):
-        print(f"Class {i}: {p:.4f}")
-
-    print("\nRecall by class:")
-
-    for i, r in enumerate(knn_recall):
-        print(f"Class {i}: {r:.4f}")
-
-
-    return selected_features
+    print(f"Accuracy KNN: {knn_accuracy}")
+    print(f"Precision KNN: {knn_precision}")
+    print(f"Recall KNN: {knn_recall}")
+    print(f"F1 KNN: {knnF1}")
 
 
 
-
-#df = pd.read_csv('creditcard.csv')
+# df = pd.read_csv("creditcard.csv")
+# print(calcRatio(df["Class"]))
+# print("=====================================")
 
 
 # Random
-#randSample = df.sample(n=50000, random_state=42)
-# randSample.to_csv('rand.csv', index=False)
+rdf = pd.read_csv("rand.csv")
 
+print("Ratio rdf:")
+print(calcRatio(rdf["Class"]))
 
+getFeatures(rdf)
 
-randDF = pd.read_csv('rand.csv')
+print("++++=========================================================+++++++")
 
-# sampleRatio= calcRatio(randDF['Class'])
+# ٍStratified
+sdf = pd.read_csv("strat.csv")
 
+print("Ratio Stratified:")
+print(calcRatio(sdf["Class"]))
+getFeatures(sdf)
 
-# classCounts =calcRatio(df['Class'])
-# print(classCounts)
+print("++++=========================================================+++++++")
 
-# getFeatures(randDF, "Class", test_size=0.33, random_state=42, n_features_to_select=10)
+# Cluster
+cdf = pd.read_csv("cluster.csv")
 
+print("Ratio Cluster:")
+print(calcRatio(cdf["Class"]))
 
-# new_df = df[['Time', 'V1', 'V2', 'V3', 'V4']]
-# new_df.to_csv('rand_selected.csv', index=False)
+getFeatures(cdf)
