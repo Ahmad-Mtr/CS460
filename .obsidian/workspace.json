@@ -13,26 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "assignments/assignment-2/report.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "report"
+              "title": "README"
             }
           },
           {
             "id": "af4301ad338a966d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "quiz.md",
-                "mode": "source",
-                "source": false
+                "file": "assignments/assignment-3/Assignment 3.pdf"
               },
-              "icon": "lucide-file",
-              "title": "quiz"
+              "icon": "lucide-file-text",
+              "title": "Assignment 3"
             }
           },
           {
@@ -41,7 +39,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "report.md",
+                "file": "todo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "todo"
+            }
+          },
+          {
+            "id": "5152bd47d3dd285b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "assignments/assignment-3/report.md",
                 "mode": "source",
                 "source": false
               },
@@ -49,7 +61,8 @@
               "title": "report"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -193,28 +206,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "31bbbac6ab19465b",
+  "active": "5152bd47d3dd285b",
   "lastOpenFiles": [
-    "assignments/assignment-2/report.pdf",
-    "quiz.md",
-    "README.md",
-    "report.md",
-    "readme-report.md",
+    "assignments/assignment-3/report.pdf",
+    "assignments/assignment-3/output.md",
     "todo.md",
-    "Untitled.md",
+    "assignments/assignment-3/report.md",
+    "assignments/assignment-3/main.py",
+    "assignments/assignment-3/Assignment 3.pdf",
     "assignments/assignment-2/Assignment2.pdf",
+    "README.md",
+    "assignments/assignment-3",
+    "assignments/New folder",
+    "quiz.md",
+    "Untitled.md",
+    "report.md",
     "assignments/assignment-2/report.md",
+    "assignments/assignment-2/report.pdf",
+    "readme-report.md",
     "(.md",
     "material/Chap12 Clustering.pdf",
     "material/Chap 11 Balanced and Imbalanced Datasets.pdf",
     "material/Chap10 ensembleLearning.pdf",
     "material/Chap9 CrossValidation.pdf",
-    "assignments/assignment-2/cluster.csv",
-    "assignments/assignment-2/strat.csv",
-    "assignments/assignment-2/task2.py~",
-    "material/Chap4 Feature Engineering and Feature Selection.pdf",
     "lecture-code/ch4-wrapper-sel.md",
-    "assignments/assignment-2/task2.py",
     "lecture-code/ch3-code-pt.2.md",
     "ch.4.md",
     "cross-validation.md",
@@ -230,7 +245,6 @@
     "ch.3.md",
     "assets/installation.gif",
     "Excalidraw/KDD-process.excalidraw.md",
-    "Untitled Kanban.md",
     "installation.gif",
     "2024-11-30 20-55-21.gif",
     "material/2024-11-30 20-55-21.gif",
@@ -239,7 +253,6 @@
     "assets/ch1-pie-plot.png",
     "assets/ch1-box-plot.png",
     "assets/ch1-stacked-bar-plot.png",
-    "assets/ch1-scatter-plot.png",
-    "Excalidraw/Drawing 2024-11-29 17.13.44.excalidraw.md"
+    "assets/ch1-scatter-plot.png"
   ]
 }

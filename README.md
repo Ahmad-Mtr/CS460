@@ -11,7 +11,7 @@ read [this](#Installation) section first
 **Professor's Code from Lectures**
 - [Ch2 code](lecture-code/ch2-code.md)
 - [Ch3 code part 1](lecture-code/ch3-code-pt.1.md)
-- [Ch3 code part 2](lecture-code/ch3-code-pt.2.md)
+	- [Ch3 code part 2](lecture-code/ch3-code-pt.2.md)
 - [Ch3 Discretization](lecture-code/ch3-discretization.md)
 - [Ch4 Feature Selection](lecture-code/ch4-feature-sel.md)
 - [Ch4 Wrapper Feature Selection](lecture-code/ch4-wrapper-sel.md)
