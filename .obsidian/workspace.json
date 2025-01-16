@@ -51,12 +51,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "math-cheatsheet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "math-cheatsheet"
             }
           },
           {
@@ -65,12 +65,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ch.6.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ch.6"
+              "title": "README"
             }
           }
         ],
@@ -192,10 +192,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "math-cheatsheet.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of math-cheatsheet"
             }
           }
         ],
@@ -219,20 +219,20 @@
   },
   "active": "c8d801141ec82216",
   "lastOpenFiles": [
-    "PDFs/math-cheatsheet.pdf",
+    "material/Chap 13Association Rule.pdf",
+    "todo.md",
+    "material/Chap7 Decision Tree.pdf",
     "README.md",
+    "ch.6.md",
     "math-cheatsheet.md",
+    "PDFs/math-cheatsheet.pdf",
     "PDFs",
     "New folder",
     "material/Chap8 KNN Algorithm.pdf",
     "material/Chap9 CrossValidation.pdf",
     "material/Chap10 ensembleLearning.pdf",
     "material/Chap12 Clustering.pdf",
-    "material/Chap 13Association Rule.pdf",
     "material/Chap 11 Balanced and Imbalanced Datasets.pdf",
-    "ch.6.md",
-    "todo.md",
-    "material/Chap7 Decision Tree.pdf",
     "ch.4.md",
     "ch.3.md",
     "ch.2.md",

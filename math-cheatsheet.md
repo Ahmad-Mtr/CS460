@@ -1,5 +1,6 @@
 # Data Mining Mathematics Cheat Sheet
-
+> [!NOTE]
+> Math formulas won't render correctly if you're viewing this from Github, use this [link](PDFs/math-cheatsheet.pdf) for the PDF version.
 ## 1. Descriptive Statistics
 
 ### Central Tendency
