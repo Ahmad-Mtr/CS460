@@ -6,7 +6,10 @@ read [this](#Installation) section first
 - [Chapter 3](ch.3.md)
 - [Chapter 4](ch.4.md)
 - [Chapter 5](ch.5.md) (Not full)
+- [Chapter 6](ch.6.md)
 - [Cross Validation](cross-validation.md)
+- [All Math Formulas](math-cheatsheet.md)
+- [All Math Formulas (PDF)](PDFs/math-cheatsheet.pdf)
 
 **Professor's Code from Lectures**
 - [Ch2 code](lecture-code/ch2-code.md)

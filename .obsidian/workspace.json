@@ -11,6 +11,18 @@
             "id": "2e1737ce87d70fc1",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "material/Chap7 Decision Tree.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Chap7 Decision Tree"
+            }
+          },
+          {
+            "id": "1b820a26fbf7b5b7",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "todo.md",
@@ -22,19 +34,47 @@
             }
           },
           {
-            "id": "1b820a26fbf7b5b7",
+            "id": "5e4fc9869d134c47",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "material/Chap7 Decision Tree.pdf"
+                "file": "material/Chap 13Association Rule.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Chap7 Decision Tree"
+              "title": "Chap 13Association Rule"
+            }
+          },
+          {
+            "id": "c8d801141ec82216",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          },
+          {
+            "id": "2d09f6139a0a1e07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ch.6.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ch.6"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -152,10 +192,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "report.md"
+                "file": "README.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of report"
+              "title": "Outline of README"
             }
           }
         ],
@@ -163,8 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,45 +217,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1b820a26fbf7b5b7",
+  "active": "c8d801141ec82216",
   "lastOpenFiles": [
-    "material/Chap6-Machine learning.pdf",
-    "material/Chap5 Statistical Inferences.pdf",
-    "todo.md",
-    "material/DataMiningStepsAndTechniques.pdf",
-    "assignments/assignment-3/Assignment 3.pdf",
+    "PDFs/math-cheatsheet.pdf",
     "README.md",
-    "assignments/assignment-3/report.md",
-    "assignments/assignment-3/report.pdf",
-    "assignments/assignment-3/output.md",
-    "assignments/assignment-3/main.py",
-    "assignments/assignment-2/Assignment2.pdf",
-    "assignments/assignment-3",
-    "assignments/New folder",
-    "quiz.md",
+    "math-cheatsheet.md",
+    "PDFs",
+    "New folder",
+    "material/Chap8 KNN Algorithm.pdf",
+    "material/Chap9 CrossValidation.pdf",
+    "material/Chap10 ensembleLearning.pdf",
+    "material/Chap12 Clustering.pdf",
+    "material/Chap 13Association Rule.pdf",
+    "material/Chap 11 Balanced and Imbalanced Datasets.pdf",
+    "ch.6.md",
+    "todo.md",
+    "material/Chap7 Decision Tree.pdf",
+    "ch.4.md",
+    "ch.3.md",
+    "ch.2.md",
+    "cross-validation.md",
+    "lecture-code/ch2-code.md",
     "Untitled.md",
+    "ch.5.md",
+    "assignments/assignment-3/report.md",
+    "assignments/assignment-3/output.md",
+    "quiz.md",
     "report.md",
     "assignments/assignment-2/report.md",
-    "assignments/assignment-2/report.pdf",
     "readme-report.md",
     "(.md",
-    "material/Chap12 Clustering.pdf",
     "lecture-code/ch4-wrapper-sel.md",
     "lecture-code/ch3-code-pt.2.md",
-    "ch.4.md",
-    "cross-validation.md",
     "lecture-code/ch3-code-pt.1.md",
     "lecture-code/ch3-discretization.md",
     "lecture-code/ch4-feature-sel.md",
-    "ch.2.md",
-    "ch.5.md",
-    "lecture-code/ch2-code.md",
     "ch.1.md",
     "lecture-code/ch2.md",
-    "lecture-code.md",
-    "ch.3.md",
     "assets/installation.gif",
-    "Excalidraw/KDD-process.excalidraw.md",
     "installation.gif",
     "2024-11-30 20-55-21.gif",
     "material/2024-11-30 20-55-21.gif",
