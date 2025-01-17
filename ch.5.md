@@ -42,7 +42,7 @@
   - Sampling fraction: 50% from each department.
 
 ---
-![Cluster Diagram](Cluster-sampling.png)
+![Cluster Diagram](assets/Cluster-sampling.png)
 ## 3. Cluster Sampling
 - **Definition**: Population is divided into clusters(groups), and a random sample of clusters (= a random group) is selected.
 - **Steps**:
